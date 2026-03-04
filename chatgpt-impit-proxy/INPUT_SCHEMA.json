@@ -1,0 +1,18 @@
+{
+  "title": "ChatGPT Impit Proxy",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "access_token": {
+      "title": "Access Token",
+      "type": "string",
+      "description": "OpenAI access token from free account"
+    },
+    "payload": {
+      "title": "Payload",
+      "type": "object",
+      "description": "ChatGPT backend-api conversation payload"
+    }
+  },
+  "required": ["access_token", "payload"]
+}
