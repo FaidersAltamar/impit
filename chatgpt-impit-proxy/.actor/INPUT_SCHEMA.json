@@ -6,12 +6,15 @@
     "access_token": {
       "title": "Access Token",
       "type": "string",
-      "description": "OpenAI access token from free account"
+      "description": "OpenAI access token from free account",
+      "editor": "textfield",
+      "isSecret": true
     },
     "payload": {
       "title": "Payload",
       "type": "object",
-      "description": "ChatGPT backend-api conversation payload"
+      "description": "ChatGPT backend-api conversation payload",
+      "editor": "json"
     }
   },
   "required": ["access_token", "payload"]
